@@ -1,4 +1,4 @@
-FROM maven:3.8.7-jdk-8 AS build
+FROM maven:3.8.7-openjdk-11 AS build
 
 WORKDIR /app
 
